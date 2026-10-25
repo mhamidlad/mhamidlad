@@ -61,6 +61,25 @@ With rapid software delivery and the rise of **AI-assisted software development*
       </p>
     </td>
     <td width="50%" valign="top">
+      <h3 align="center">🧪 AI Security Fix Lab</h3>
+      <p align="center">
+        <a href="https://github.com/mhamidlad/ai-security-fix-lab"><img src="https://img.shields.io/badge/Repo-ai--security--fix--lab-blue?style=flat-square&logo=github" alt="Repo"/></a>
+        <a href="https://github.com/mhamidlad/ai-security-fix-lab/actions/workflows/ci.yml"><img src="https://github.com/mhamidlad/ai-security-fix-lab/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
+        <img src="https://img.shields.io/badge/Tests-74%20Passing-brightgreen?style=flat-square" alt="Tests"/>
+      </p>
+      <p>Complete vulnerability reproduction and defensive remediation lab covering 8 critical OWASP categories with automated security and regression tests.</p>
+      <ul>
+        <li><b>8 Interactive Labs:</b> SQLi, Broken Access Control (BOLA), XSS, Insecure File Upload, Password Storage, Command Injection, SSRF, Deserialization.</li>
+        <li><b>Dual Implementations:</b> Vulnerable and secure code side-by-side with root cause analysis.</li>
+        <li><b>Built with:</b> Python 3.9 - 3.13, Pytest, bcrypt (74 automated tests).</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/mhamidlad/ai-security-fix-lab"><b>Explore Project ➔</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3 align="center">🔐 Role-Based Admin Dashboard (RBAC)</h3>
       <p align="center">
         <a href="https://github.com/mhamidlad/userroles"><img src="https://img.shields.io/badge/Repo-userroles-blue?style=flat-square&logo=github" alt="Repo"/></a>
@@ -71,14 +90,11 @@ With rapid software delivery and the rise of **AI-assisted software development*
       <ul>
         <li><b>Dual-Layer Enforcement:</b> UI route protection backed by declarative Firestore security rules to prevent client-side bypasses.</li>
         <li><b>Granular Roles:</b> Strict administrative isolation, preventing privilege escalation.</li>
-        <li><b>Built with:</b> React, Firebase Authentication, Cloud Firestore, Firebase Hosting.</li>
       </ul>
       <p align="center">
         <a href="https://github.com/mhamidlad/userroles"><b>Explore Project ➔</b></a>
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3 align="center">📧 TempMail Sim - Privacy Shield</h3>
       <p align="center">
@@ -88,17 +104,6 @@ With rapid software delivery and the rise of **AI-assisted software development*
       <p>A privacy-oriented disposable temporary email client interface preventing personal inbox pollution and correlation tracking during untrusted service signups.</p>
       <p align="center">
         <a href="https://github.com/mhamidlad/Temporary-Email-"><b>Explore Project ➔</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">⚙️ FileFlip - Secure Conversion Utility</h3>
-      <p align="center">
-        <a href="https://github.com/mhamidlad/fileflip"><img src="https://img.shields.io/badge/Repo-fileflip-blue?style=flat-square&logo=github" alt="Repo"/></a>
-        <img src="https://img.shields.io/badge/Architecture-Offline--First-orange?style=flat-square" alt="Offline"/>
-      </p>
-      <p>Offline-first document and asset conversion utility designed to eliminate data leakage associated with public cloud file converters.</p>
-      <p align="center">
-        <a href="https://github.com/mhamidlad/fileflip"><b>Explore Project ➔</b></a>
       </p>
     </td>
   </tr>
