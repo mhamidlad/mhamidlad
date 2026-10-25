@@ -1,398 +1,289 @@
-# Cybersecurity Engineer | Application Security | AI Security | DevSecOps
+<div align="center">
 
-I work on finding security weaknesses in applications, APIs, cloud environments, CI/CD pipelines, and AI-assisted software — and, more importantly, fixing them.
+# 🛡️ Muhammad Hamid
+### Cybersecurity Engineer | Application Security (AppSec) | DevSecOps | AI Code Security
 
-My approach is practical: reproduce the issue, understand the root cause, implement the fix, add a security test, and make sure the same problem does not quietly come back later.
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Direct%20Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923167417135)
+[![Email](https://img.shields.io/badge/Email-mhamidlad%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mhamidlad@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-abouthamid.web.app-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://abouthamid.web.app/)
+[![Status](https://img.shields.io/badge/Status-Available%20for%20Audits%20%26%20Consulting-00C853?style=for-the-badge)](https://wa.me/923167417135)
 
-I am particularly interested in the security problems introduced by **AI-assisted software development**, where applications can be built extremely quickly but security decisions are often overlooked.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00FF66&center=true&vCenter=true&width=650&lines=Application+%26+API+Security+Audits;Secure+Code+Reviews+%26+Static+Analysis;DevSecOps+%26+CI%2FCD+Pipeline+Hardening;AI-Generated+Code+Security+%26+Remediation;Fixes+Over+Findings.+Evidence+Over+Assumptions." alt="Typing SVG" />
+</p>
 
----
-
-## What I Do
-
-- Application & API Security
-- Secure Code Review
-- AI-Generated Code Security
-- Vulnerability Assessment
-- Penetration Testing
-- DevSecOps & CI/CD Security
-- Cloud Security
-- Authentication & Authorization Security
-- Dependency & Supply Chain Security
-- Secrets Detection & Remediation
-- Security Automation
-- Python & JavaScript Security Tooling
-- AI / LLM Application Security
-- Security Testing & Vulnerability Remediation
-
-I prefer engineering solutions over simply producing vulnerability lists.
-
-A useful security assessment should answer:
-
-> **What is wrong? Why is it happening? How can it be exploited? How should it be fixed? How do we prove the fix works?**
+</div>
 
 ---
 
-# Security Work & Real-World Patterns
+## 📌 Executive Summary
 
-Over the years, I have worked with the kinds of security problems that repeatedly appear in real applications and development environments.
+I work on uncovering security weaknesses across web applications, APIs, cloud environments, CI/CD pipelines, and AI-assisted software — and more importantly, **engineering robust fixes**.
 
-Some examples of issues I have investigated and fixed include:
+My approach is practical and evidence-driven:
+> **Reproduce the issue ➔ Diagnose root cause ➔ Engineer the fix ➔ Implement regression tests ➔ Automate continuous prevention.**
 
-### Broken Access Control
+With rapid software delivery and the rise of **AI-assisted software development**, code is shipped faster than ever, but architectural security considerations and subtle vulnerabilities are frequently overlooked. I specialize in identifying these vulnerabilities early and hardening applications before they reach production.
 
-An application correctly authenticated users but did not always verify whether the authenticated user was actually authorized to access the requested object.
+---
 
-For example:
+## 🎯 What I Do
+
+- **Application & API Security:** OWASP Top 10, API Security Top 10, secure session management, CSRF/XSS defense.
+- **Secure Code Review (SAST):** In-depth source code analysis across Python, PHP, JavaScript, and TypeScript codebases.
+- **AI-Generated Code Security:** Identifying dangerous hallucinations, insecure deserialization, SQL injection, and command injection in AI-assisted code.
+- **DevSecOps & CI/CD Hardening:** Automated security scanning (SARIF, Ruff, Bandit, Semgrep) integrated into GitHub Actions with least-privilege permissions.
+- **Authentication & Access Control (RBAC):** Object-level authorization (BOLA/IDOR prevention), multi-tenant ACLs, and cloud security rules.
+- **Secrets Detection & Remediation:** Automated pipeline secret scanning, credential rotation workflows, and secure environment isolation.
+- **Security Testing & Vulnerability Remediation:** Engineering defensive patches backed by reproducible automated tests to prevent security regressions.
+
+---
+
+## 🚀 Featured Flagship Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🛡️ PHP Security Audit Toolkit</h3>
+      <p align="center">
+        <a href="https://github.com/mhamidlad/php-security-audit-toolkit"><img src="https://img.shields.io/badge/Repo-php--security--audit--toolkit-blue?style=flat-square&logo=github" alt="Repo"/></a>
+        <a href="https://github.com/mhamidlad/php-security-audit-toolkit/actions/workflows/ci.yml"><img src="https://github.com/mhamidlad/php-security-audit-toolkit/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
+        <a href="https://github.com/mhamidlad/php-security-audit-toolkit/actions/workflows/security.yml"><img src="https://github.com/mhamidlad/php-security-audit-toolkit/actions/workflows/security.yml/badge.svg" alt="Security"/></a>
+      </p>
+      <p>A production-ready command-line security auditing toolkit for PHP applications. Scans PHP source code, Composer lockfiles, Dockerfiles, and GitHub Actions workflows for vulnerabilities.</p>
+      <ul>
+        <li><b>12+ Detection Rules:</b> SQLi, Command Injection, XSS, Path Traversal, Deserialization, etc.</li>
+        <li><b>Enterprise Output:</b> Terminal reports, structured JSON, and OASIS SARIF v2.1.0 for GitHub Code Scanning integration.</li>
+        <li><b>Built with:</b> Python 3.11+, Typer, Rich, PyYAML, Pytest (100% passing tests).</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/mhamidlad/php-security-audit-toolkit"><b>Explore Project ➔</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🔐 Role-Based Admin Dashboard (RBAC)</h3>
+      <p align="center">
+        <a href="https://github.com/mhamidlad/userroles"><img src="https://img.shields.io/badge/Repo-userroles-blue?style=flat-square&logo=github" alt="Repo"/></a>
+        <a href="https://userroles.web.app"><img src="https://img.shields.io/badge/Demo-userroles.web.app-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Demo"/></a>
+        <img src="https://img.shields.io/badge/Security-RBAC%20Enforced-00C853?style=flat-square" alt="Security"/>
+      </p>
+      <p>A complete role-based access control architecture implementing defense-in-depth authentication and granular permissions on Google Firebase.</p>
+      <ul>
+        <li><b>Dual-Layer Enforcement:</b> UI route protection backed by declarative Firestore security rules to prevent client-side bypasses.</li>
+        <li><b>Granular Roles:</b> Strict administrative isolation, preventing privilege escalation.</li>
+        <li><b>Built with:</b> React, Firebase Authentication, Cloud Firestore, Firebase Hosting.</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/mhamidlad/userroles"><b>Explore Project ➔</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">📧 TempMail Sim - Privacy Shield</h3>
+      <p align="center">
+        <a href="https://github.com/mhamidlad/Temporary-Email-"><img src="https://img.shields.io/badge/Repo-Temporary--Email--blue?style=flat-square&logo=github" alt="Repo"/></a>
+        <img src="https://img.shields.io/badge/Privacy-Anti--Spam-10B981?style=flat-square" alt="Privacy"/>
+      </p>
+      <p>A privacy-oriented disposable temporary email client interface preventing personal inbox pollution and correlation tracking during untrusted service signups.</p>
+      <p align="center">
+        <a href="https://github.com/mhamidlad/Temporary-Email-"><b>Explore Project ➔</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">⚙️ FileFlip - Secure Conversion Utility</h3>
+      <p align="center">
+        <a href="https://github.com/mhamidlad/fileflip"><img src="https://img.shields.io/badge/Repo-fileflip-blue?style=flat-square&logo=github" alt="Repo"/></a>
+        <img src="https://img.shields.io/badge/Architecture-Offline--First-orange?style=flat-square" alt="Offline"/>
+      </p>
+      <p>Offline-first document and asset conversion utility designed to eliminate data leakage associated with public cloud file converters.</p>
+      <p align="center">
+        <a href="https://github.com/mhamidlad/fileflip"><b>Explore Project ➔</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🔍 Security Case Studies & Real-World Fixes
+
+### 1. Broken Object-Level Authorization (BOLA / IDOR)
+* **The Vulnerability:** An API endpoint authenticated users but relied solely on client-provided IDs without verifying tenant ownership.
+  ```http
+  GET /api/orders/10452 HTTP/1.1
+  Authorization: Bearer <valid_token_for_user_A>
+  ```
+  *(Changing the ID exposed records belonging to User B).*
+* **The Engineering Fix:** Enforced strict server-side ownership binding in query scopes rather than trusting request parameters:
+  ```python
+  # Safe: Verifies tenant ownership directly in the database lookup
+  order = db.query(Order).filter(
+      Order.id == order_id,
+      Order.account_id == current_user.account_id
+  ).first_or_404()
+  ```
+* **Key Principle:** *Authentication verifies identity; Authorization verifies permissions. Both must be enforced independently on every request.*
+
+---
+
+### 2. SQL Injection in Dynamic Queries
+* **The Vulnerability:** Dynamic string concatenation or unescaped interpolation in database lookups.
+  ```python
+  # Unsafe pattern
+  cursor.execute(f"SELECT * FROM users WHERE email = '{user_input}'")
+  ```
+* **The Engineering Fix:** Parameterized prepared statements combined with automated regression tests:
+  ```python
+  # Secure pattern
+  cursor.execute(
+      "SELECT id, username, email FROM users WHERE email = %s",
+      (user_input,)
+  )
+  ```
+
+---
+
+### 3. Hardcoded Secrets & Multi-Stage Remediation
+* **The Problem:** API keys, database credentials, or tokens inadvertently committed to source code or configuration files.
+* **The Remediation Protocol:**
+  1. **Immediate Revocation:** Rotate/revoke the active key at the provider level immediately.
+  2. **History Cleansing:** Purge the secret from git history using tools like `git-filter-repo`.
+  3. **Environment Isolation:** Migrate to secure environment variables or vault secret managers.
+  4. **Automated Prevention:** Deploy pre-commit hooks and CI detection (e.g., Gitleaks, Bandit, custom SAST) to block commits containing high-entropy strings.
+
+---
+
+### 4. Command Injection & Unsafe Shell Calls
+* **The Vulnerability:** Application code delegating system operations through shell interpreters with user input:
+  ```python
+  # Unsafe: Shell interpolation allows command chaining (e.g., '127.0.0.1; rm -rf /')
+  os.system("ping -c 1 " + ip_address)
+  ```
+* **The Engineering Fix:** Use argument-vector subprocess execution with `shell=False` and strict regex input validation:
+  ```python
+  import subprocess
+  import ipaddress
+
+  # Validate format strictly
+  validated_ip = str(ipaddress.ip_address(user_input))
+  subprocess.run(["ping", "-c", "1", validated_ip], check=True, shell=False)
+  ```
+
+---
+
+### 5. AI Agent & LLM Application Security
+* **The Challenge:** LLM agents equipped with system tool calls can be coerced via prompt injection to execute unauthorized actions or exfiltrate private data.
+* **Defensive Architecture:**
+  - **Least Privilege for Tools:** Disallow destructive tool calls without mandatory human-in-the-loop authorization.
+  - **Strict Sandboxing:** Run agent-generated code inside disposable, network-restricted container runtimes.
+  - **Output Validation & Schema Enforcement:** Validate LLM output against strict JSON schemas before passing to downstream internal APIs.
+
+---
+
+## 🛠️ Technologies & Security Tooling
+
+<table>
+  <tr>
+    <td width="20%"><b>Core Languages</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+      <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+      <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
+      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%"><b>AppSec & SAST / DAST</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/OWASP%20Top%2010-000000?style=flat-square&logo=owasp&logoColor=white" alt="OWASP"/>
+      <img src="https://img.shields.io/badge/Semgrep-2B2D42?style=flat-square&logo=semgrep&logoColor=white" alt="Semgrep"/>
+      <img src="https://img.shields.io/badge/Bandit-FF6B6B?style=flat-square" alt="Bandit"/>
+      <img src="https://img.shields.io/badge/SARIF%20Reports-007ACC?style=flat-square" alt="SARIF"/>
+      <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white" alt="Burp Suite"/>
+      <img src="https://img.shields.io/badge/OWASP%20ZAP-005A9C?style=flat-square&logo=owasp&logoColor=white" alt="ZAP"/>
+      <img src="https://img.shields.io/badge/Nmap-002B36?style=flat-square" alt="Nmap"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%"><b>DevSecOps & Cloud</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
+      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase"/>
+      <img src="https://img.shields.io/badge/CI%2FCD%20Hardening-2E7D32?style=flat-square" alt="CI/CD"/>
+      <img src="https://img.shields.io/badge/Secrets%20Management-D32F2F?style=flat-square" alt="Secrets"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%"><b>AI & LLM Security</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Prompt%20Injection%20Defense-673AB7?style=flat-square" alt="Prompt Injection"/>
+      <img src="https://img.shields.io/badge/AI%20Agent%20Sandboxing-009688?style=flat-square" alt="AI Agent"/>
+      <img src="https://img.shields.io/badge/OWASP%20LLM%20Top%2010-000000?style=flat-square" alt="OWASP LLM"/>
+      <img src="https://img.shields.io/badge/AI%20Code%20Review-FF9800?style=flat-square" alt="AI Code Review"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🔄 Security Engineering Lifecycle
 
 ```text
-GET /api/orders/10452
+┌──────────────┐     ┌──────────────┐     ┌──────────────┐
+│  01 IDENTIFY │ ──> │ 02 VALIDATE  │ ──> │03 UNDERSTAND │
+│ Code Review, │     │ Confirm True │     │ Diagnose     │
+│ SAST & Scans │     │ Exploitation │     │ Root Cause   │
+└──────────────┘     └──────────────┘     └──────────────┘
+                                                 │
+                                                 ▼
+┌──────────────┐     ┌──────────────┐     ┌──────────────┐
+│  06 PREVENT  │ <── │   05 TEST    │ <── │ 04 REMEDIATE │
+│ CI/CD Gates  │     │ Regression & │     │ Implement    │
+│ & Automation │     │ Edge Tests   │     │ Secure Fix   │
+└──────────────┘     └──────────────┘     └──────────────┘
 ```
 
-Changing the object ID could expose another user's order when authorization was based only on authentication.
+---
 
-**Fix:** I introduced server-side ownership/authorization checks rather than relying on the object identifier supplied by the client.
+## 📊 GitHub Analytics
 
-> Authentication answers "Who are you?"
-> Authorization answers "Are you allowed to do this?"
->
-> Both need to be enforced independently.
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mhamidlad&show_icons=true&theme=radical&hide_border=true&title_color=00FF66&icon_color=00FF66&text_color=FFFFFF&bg_color=0D1117" alt="Hamid's GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhamidlad&layout=compact&theme=radical&hide_border=true&title_color=00FF66&text_color=FFFFFF&bg_color=0D1117" alt="Top Languages" height="165" />
+</div>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mhamidlad&theme=radical&hide_border=true&ring=00FF66&fire=00FF66&currStreakLabel=00FF66" alt="Hamid's Streak Stats" />
+</p>
 
 ---
 
-### SQL Injection
+## 💼 Available for Security Consulting & Audits
 
-I have encountered application code where user-controlled values were incorporated directly into database queries.
+I provide dedicated application security assessments, secure code auditing, and vulnerability remediation services for startups, dev agencies, and software engineering teams:
 
-Unsafe pattern:
-```python
-query = "SELECT * FROM users WHERE email = '" + email + "'"
-```
-
-The correct approach is parameterized database access:
-```python
-cursor.execute(
-    "SELECT * FROM users WHERE email = %s",
-    (email,)
-)
-```
-
-The important part is not simply changing one line of code. I also add regression tests so that the vulnerability does not return during a future refactor.
+- **AI-Generated Code Security Audits:** Reviewing software generated by LLM coding assistants to eliminate hidden vulnerabilities.
+- **Application & API Penetration Testing:** Identifying authorization flaws, injection patterns, and business logic flaws.
+- **Secure Code Review:** Line-by-line manual reviews and custom SAST rule implementation.
+- **DevSecOps Pipeline Integration:** Embedding automated security gates into GitHub Actions and CI/CD pipelines.
+- **Remediation Engineering:** Working directly with development teams to write, test, and ship security patches.
 
 ---
 
-### Hardcoded Credentials & Secrets
+## 📬 Contact & Inquiries
 
-Another recurring problem is credentials appearing in:
-- Source code
-- Configuration files
-- `.env` files committed accidentally
-- CI/CD configuration
-- Debug output
-- Deployment scripts
+<div align="center">
 
-The remediation is more than deleting the value from the current file. A proper response can involve:
-1. Revoking or rotating the exposed credential.
-2. Checking repository history.
-3. Removing the secret where appropriate.
-4. Moving secrets into an appropriate secret-management mechanism.
-5. Adding automated secret detection.
-6. Reviewing where the credential was used.
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B92%20316%207417135-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923167417135)
+[![Email](https://img.shields.io/badge/Email-mhamidlad%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mhamidlad@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Website-abouthamid.web.app-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://abouthamid.web.app/)
 
----
+<p><b>Security First &bull; Evidence Over Assumptions &bull; Fixes Over Findings</b></p>
+<p><i>Authorized security assessments only. All assessments conducted within strictly defined rules of engagement.</i></p>
 
-### Insecure File Uploads
-
-File upload functionality can become dangerous when an application trusts `filename`, `Content-Type`, or `file extension` without properly controlling what is actually uploaded and where it is stored.
-
-Security controls I look for include:
-- Allowlisted file types
-- File size limits
-- Randomized storage names
-- Storage outside executable web directories
-- Content validation
-- Authorization checks
-- Safe download handling
-- Malware scanning where appropriate
-
----
-
-### Command Injection
-
-A particularly important pattern is application code passing user-controlled input into operating-system commands.
-
-For example:
-```python
-os.system("ping " + user_input)
-```
-
-The safer design is generally to avoid shell interpretation and use a controlled API with strict validation and an allowlist where possible.
-
-> If an application does not need to execute a shell command, don't give it a shell.
-
----
-
-### Weak Authentication Implementations
-
-I have also dealt with authentication implementations where security depended too heavily on client-side behavior or insufficient server-side validation.
-
-Security review areas include:
-- Password storage
-- Session management
-- Token validation
-- Password reset flows
-- Account enumeration
-- Brute-force protection
-- MFA enforcement
-- Session expiration
-- Logout/invalidation
-- Privileged account controls
-
-A login form looking secure does not necessarily mean the authentication system is secure.
-
----
-
-### Dependency & Supply Chain Risks
-
-Modern applications depend on hundreds or thousands of third-party packages.
-
-I look for:
-- Known vulnerable dependencies
-- Abandoned packages
-- Unnecessary dependencies
-- Dependency confusion risks
-- Unsafe package installation
-- Uncontrolled version changes
-- CI/CD dependency risks
-
-Security is not only about the code your team writes. The software you depend on becomes part of your attack surface.
-
----
-
-# AI-Generated Code Security
-
-AI coding assistants have changed software development. They are extremely useful. They can also produce code that is:
-- Functionally correct but insecure
-- Overly permissive
-- Missing authorization checks
-- Vulnerable to injection
-- Dependent on unnecessary packages
-- Unsafe around filesystem operations
-- Insecure in error handling
-- Missing security tests
-- Incorrectly implementing authentication
-
-One of the areas I am actively exploring is:
-
-## **"AI writes the code. Who checks the security?"**
-
-My open-source work focuses on making that process easier.
-
----
-
-# Featured Security Projects
-
-## AI Code Security Scanner
-**Repository:** `ai-code-security-scanner`
-
-A developer-focused security scanner for identifying common security weaknesses in AI-assisted code.
-
-### Planned capabilities
-- SQL injection patterns
-- Command injection
-- Hardcoded secrets
-- Dangerous filesystem operations
-- Unsafe deserialization
-- Weak authentication patterns
-- Security-sensitive configuration
-- Insecure dependency usage
-- Missing security controls
-
-The goal is not to claim that a scanner can prove software is secure. The goal is to identify suspicious patterns early and give developers useful remediation guidance.
-
----
-
-## AI Security Fix Lab
-**Repository:** `ai-security-fix-lab`
-
-A collection of intentionally vulnerable applications demonstrating:
-
-```text
-Vulnerable Code -> Security Test -> Root Cause -> Secure Fix -> Regression Test
-```
-
-Each example focuses on understanding the vulnerability rather than simply copying a security checklist.
-
-Examples include:
-- SQL Injection
-- Broken Access Control
-- Command Injection
-- XSS
-- Insecure File Upload
-- Authentication weaknesses
-- SSRF
-- Sensitive information exposure
-- Unsafe AI output handling
-
-All demonstrations use isolated test environments and synthetic data.
-
----
-
-## AI Code Security Benchmark
-**Repository:** `ai-code-security-benchmark`
-
-A reproducible benchmark for evaluating security-analysis techniques against known vulnerable examples.
-
-The project focuses on:
-- Detection coverage
-- False positives
-- False negatives
-- Precision
-- Recall
-- Runtime
-- Vulnerability category coverage
-
-Security tooling should be measured, not simply advertised.
-
----
-
-## AI Secrets Guardian
-**Repository:** `ai-secrets-guardian`
-
-A security-focused project for detecting potentially exposed credentials and sensitive configuration before they reach source control or production.
-
-```text
-Possible API Key
-File: config/settings.py
-Line: 24
-Value: [REDACTED]
-Recommended: Rotate -> Remove -> Review History -> Secure Storage
-```
-
-Secrets should never be printed in security reports simply because a scanner found them.
-
----
-
-## AI Agent Security Toolkit
-**Repository:** `ai-agent-security-toolkit`
-
-Security testing and hardening utilities for applications where AI models can interact with tools, APIs, files, databases, or other systems.
-
-Areas of interest include:
-- Excessive permissions
-- Prompt injection
-- Tool authorization
-- Unsafe tool arguments
-- Sensitive information exposure
-- Human approval for high-risk operations
-- Sandboxing
-- Audit logging
-- Resource restrictions
-
-An AI agent should not receive more authority than it actually needs.
-
----
-
-## Secure AI Development Workflows
-**Repository:** `secure-ai-dev-workflows`
-
-Security-focused GitHub Actions and development workflow examples covering:
-- SAST
-- Dependency scanning
-- Secret detection
-- Security tests
-- Pull-request checks
-- Least-privilege workflow permissions
-- CI/CD hardening
-
-The objective is to move security closer to the development process instead of waiting until production.
-
----
-
-# Security Engineering Philosophy
-
-```text
-Understand -> Reproduce -> Measure -> Fix -> Test -> Automate -> Monitor
-```
-
-Finding a vulnerability is only part of the job. If the development team cannot understand the issue, reproduce it, fix it, and prevent regression, the security work is incomplete.
-
----
-
-# Technologies & Tools
-
-### Programming
-`Python` `JavaScript` `TypeScript` `SQL` `Bash`
-
-### Application Security
-`OWASP` `SAST` `DAST` `API Security` `Secure Code Review`
-
-### Security Testing
-`Burp Suite` `Nmap` `Semgrep` `Bandit` `OWASP ZAP`
-
-### DevSecOps
-`Git` `GitHub Actions` `CI/CD` `Docker` `Security Automation`
-
-### Cloud & Infrastructure
-`Linux` `Docker` `Cloud Security` `Secrets Management`
-
-### AI Security
-`LLM Security` `Prompt Injection` `AI Agents` `RAG Security` `AI-Assisted Development`
-
-> Tools are only useful when combined with sound security reasoning. I focus on understanding the underlying vulnerability rather than relying blindly on scanner output.
-
----
-
-# How I Approach a Security Finding
-
-### 01 - Identify
-Find suspicious behavior through code review, automated analysis, testing, or monitoring.
-
-### 02 - Validate
-Determine whether the finding is actually exploitable or represents a genuine security weakness.
-
-### 03 - Understand
-Trace the vulnerability back to its root cause.
-
-### 04 - Remediate
-Implement a secure solution appropriate to the application's architecture.
-
-### 05 - Test
-Create or update security tests to verify the fix.
-
-### 06 - Prevent
-Add automation, CI/CD checks, coding standards, or monitoring where appropriate.
-
----
-
-# Available for Security Work
-
-I am available for selected security engineering and consulting work involving:
-- Application security reviews
-- API security assessments
-- Secure code reviews
-- AI-generated code security reviews
-- AI/LLM application security
-- Vulnerability remediation
-- DevSecOps implementation
-- CI/CD security
-- Security automation
-- Security testing
-
-If you have an application, API, AI system, or development pipeline that needs a security review or remediation work, feel free to reach out.
-
-## WhatsApp
-**+92 316 7417135**
-
----
-
-### Security First. Evidence Over Assumptions. Fixes Over Findings.
-
-*Security testing should only be performed against systems where appropriate authorization has been obtained.*
-
----
-
-## TODO
-- [ ] Replace generic "I have encountered" examples with 5-10 real security issues personally fixed
-- [ ] Create profile README repo (mhamidlad/mhamidlad) and push this
-- [ ] Verify all listed tools are genuinely known before publishing
+</div>
